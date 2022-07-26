@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+body{width: 99%;
+height: 99%;}
+.grid-container {
+  display: grid;
+ ;grid-template-columns: 33% 33% 33%;
+ grid-template-rows: 25vh 48vh 25vh;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.black{background-color: black;
+grid-column-start:1;
+grid-column-end: 4;
+display: grid;}
+.orange{grid-column-start: 1;
+grid-column-end: 3;
+background-color: orange;}
+.green{background-color: green;
+}
+.blue{background-color: blue;
+grid-column-start: 1;
+grid-column-end: 4;}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="black"></div>
+  <div class="orange"></div>  
+   <div class="green"></div>
+ 
+  <div class="blue"></div>
+ 
+</div>
+
+</body>
+</html>
